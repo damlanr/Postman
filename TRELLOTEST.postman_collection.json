@@ -1,0 +1,297 @@
+{
+	"id": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+	"name": "TRELLOTEST",
+	"description": "",
+	"order": [
+		"bec851b5-7268-eeb9-8781-34aa6e3dab62",
+		"b404a3fc-277e-692b-bd33-63c1e4784cd2",
+		"59ca50bf-300f-88cf-1ab4-f888ba227e2e",
+		"31b7ecec-8576-6866-7c6e-89510cd684a3",
+		"bfbc4e2c-2d0d-3a20-2f09-985f938f2695",
+		"d3e9ec23-f662-a075-e8f0-dc255771fc1a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1597519169985,
+	"owner": "12088986",
+	"public": false,
+	"requests": [
+		{
+			"id": "31b7ecec-8576-6866-7c6e-89510cd684a3",
+			"headers": "",
+			"headerData": [],
+			"url": "{{URL}}/1/cards?key={{key}}&token={{token}}&name=Install Postman&idList={{todolistid}}",
+			"queryParams": [
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Install Postman",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idList",
+					"value": "{{todolistid}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "CREATE CARD ON LİST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597521577574,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "59ca50bf-300f-88cf-1ab4-f888ba227e2e",
+			"headers": "",
+			"headerData": [],
+			"url": "{{URL}}/1/boards/{{boardid}}/lists?key={{key}}&token={{token}}",
+			"queryParams": [
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET LİSTS",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597521154356,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b404a3fc-277e-692b-bd33-63c1e4784cd2",
+			"headers": "",
+			"headerData": [],
+			"url": "{{URL}}/1/boards/{{boardid}}/lists?name=To Do&key={{key}}&token={{token}}",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "To Do",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "CREATE LİST ON BOARD",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597520647276,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bec851b5-7268-eeb9-8781-34aa6e3dab62",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.trello.com/1/boards?name=Trello&key={{key}}&token={{token}}&defaultLists=false",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "Trello",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "defaultLists",
+					"value": "false",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "CREATE BOARD",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597520258444,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bfbc4e2c-2d0d-3a20-2f09-985f938f2695",
+			"headers": "",
+			"headerData": [],
+			"url": "{{URL}}/1/boards/{{boardid}}/cards?key={{key}}&token={{token}}",
+			"queryParams": [
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET  CARDS",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597522040525,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d3e9ec23-f662-a075-e8f0-dc255771fc1a",
+			"headers": "",
+			"headerData": [],
+			"url": "{{URL}}/1/cards/:id?key={{key}}&token={{token}}&idList={{inprogressid}}",
+			"queryParams": [
+				{
+					"key": "key",
+					"value": "{{key}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idList",
+					"value": "{{inprogressid}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {
+				"id": "{{ınstallcardid}}"
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "{{ınstallcardid}}"
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1be187a5-da03-3ab9-56cb-697b0bd7f8fb",
+			"data": null,
+			"dataMode": "params",
+			"name": "MOVE CARD",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597522268855,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
